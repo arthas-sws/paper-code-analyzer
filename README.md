@@ -6,6 +6,14 @@
 
 本项目是一个供 AI 助手加载的 skill，包含指令、报告模板、参考指南和一个 Python 算术工具。它不是独立运行的论文分析程序。
 
+## 先看实际产出
+
+**[完整拆解示例：LoRA，从公式到源码与实验证据](examples/lora.zh-CN.md)** · [English](examples/lora.en.md)
+
+示例拆到四个功能模块，逐项给出前后变化、矩阵形状、梯度解释、固定提交的代码行、调用路径、配置和收益证据。还会指出实际差异：论文与代码的初始化分布不同；库支持权重合并，但所查 GPT-2 示例关闭了它。
+
+完成深度是“能解释、能定位、能核对”；未执行训练或复现实测，相关限制在报告中明确列出。
+
 ## 它怎样帮你读论文
 
 1. **先看结构**：用模块总览表建立全貌，沿用同一组编号逐项展开。
@@ -35,6 +43,7 @@
 ## 文档与示例
 
 - [工作流程与分析方法](docs/workflow.zh-CN.md) · [English guide](docs/workflow.en.md)
+- [真实论文完整拆解：LoRA](examples/lora.zh-CN.md) · [English](examples/lora.en.md)
 - [合成示例：证据不足时怎样报告](examples/evidence-example.md)
 - [贡献指南 / Contributing](CONTRIBUTING.md)
 - [参考项目与来源说明](docs/provenance.md)
@@ -49,7 +58,7 @@ references/                     原版证据、迁移与 3DGS 检查指南
 scripts/compute_gains.py         原版收益计算工具
 README.md / README.en.md         中英文项目说明
 docs/                           面向人的流程和来源说明
-examples/                       明确标记的合成示例
+examples/                       LoRA 真实拆解与合成证据示例
 CONTRIBUTING.md                  贡献规则
 SOURCE_MANIFEST.json             原版文件 SHA-256 清单
 ```

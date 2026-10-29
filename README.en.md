@@ -6,6 +6,14 @@ Decompose a research paper into functional modules and explain each module's pro
 
 This is an AI assistant skill: instructions, report templates, references, and a Python arithmetic helper. It is not a standalone paper-analysis application.
 
+## See the actual output first
+
+**[Worked example: LoRA, from equations to source and experiment evidence](examples/lora.en.md)** · [简体中文](examples/lora.zh-CN.md)
+
+The report expands four functional modules into changes, matrix shapes, gradient explanations, pinned source lines, call paths, configuration, and supported gains. It also identifies an initialization-distribution difference and a GPT-2 configuration that disables library-supported weight merging.
+
+The demonstrated depth is explanation, source correspondence, and evidence checking. Training and runtime reproduction were not performed and are explicitly marked.
+
 ## What it does
 
 1. Start with a module overview, then expand the same IDs in matching sections.
@@ -35,13 +43,14 @@ Switching documentation language does not replace the original skill files.
 ## Guides
 
 - [Workflow and analysis method](docs/workflow.en.md) · [中文](docs/workflow.zh-CN.md)
+- [Real-paper worked example: LoRA](examples/lora.en.md) · [中文](examples/lora.zh-CN.md)
 - [Synthetic evidence example](examples/evidence-example.md)
 - [Contributing](CONTRIBUTING.md)
 - [References and provenance](docs/provenance.md)
 
 ## Contents
 
-The original entry point is `SKILL.md`; `agents/` contains UI metadata, `assets/` contains an icon and report templates, `references/` covers evidence, transfer, and optional 3DGS checks, and `scripts/compute_gains.py` provides arithmetic. Bilingual READMEs, `docs/`, `examples/`, and contribution guidance are publication additions. `SOURCE_MANIFEST.json` records original file hashes.
+The original entry point is `SKILL.md`; `agents/` contains UI metadata, `assets/` contains an icon and report templates, `references/` covers evidence, transfer, and optional 3DGS checks, and `scripts/compute_gains.py` provides arithmetic. Bilingual READMEs, `docs/`, `examples/` (a real LoRA report and a synthetic evidence example), and contribution guidance are publication additions. `SOURCE_MANIFEST.json` records original file hashes.
 
 ## Requirements and limits
 
