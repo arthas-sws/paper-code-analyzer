@@ -1,0 +1,51 @@
+{
+  "snapshot_date": "2026-10-29",
+  "archive_sha256": "34529397d0f3fb2f009afcbea969f19c29280b514fa2f861a29e2c911658e7c5",
+  "original_files": [
+    {
+      "path": "agents/openai.yaml",
+      "bytes": 567,
+      "sha256": "22aa590e85bdd832c316ebfe2f0b4f4a6117fcf3487b485ccc463e8ee42be4a4"
+    },
+    {
+      "path": "assets/icon.svg",
+      "bytes": 420,
+      "sha256": "e9301497fa98ef56aaca7ede0857b9a18dc06c34040f0679c609a6bf49b1d38b"
+    },
+    {
+      "path": "assets/module-card.md",
+      "bytes": 3313,
+      "sha256": "3c1aea08ea6782f48517437dc41e965889873f8937525ddbb891facb0e679dde"
+    },
+    {
+      "path": "assets/paper-report-outline.md",
+      "bytes": 1969,
+      "sha256": "3b360f24f35401f92e782ced57a4e1a648c07715e1ba3ca2befe8889808fbf7e"
+    },
+    {
+      "path": "references/3dgs-anchor-notes.md",
+      "bytes": 4345,
+      "sha256": "79833378d4b57b9e0627bef30ca81d3703ae65c5413348be6f46c4ea58dbaa5f"
+    },
+    {
+      "path": "references/evidence-and-gains.md",
+      "bytes": 8901,
+      "sha256": "077e0166469ceab50c9cdf53c8f1544907d2c98910d8b0aa68a311a9d72ba75d"
+    },
+    {
+      "path": "references/transfer-search.md",
+      "bytes": 5440,
+      "sha256": "83feea37c140661b122b5b7a1f4f8757f338484652974b9a66e7ad6f6de015ae"
+    },
+    {
+      "path": "scripts/compute_gains.py",
+      "bytes": 9514,
+      "sha256": "cd33934959ff34c8ce6a7d04531621423da7e7afef5b758403d7cee20b0a914f"
+    },
+    {
+      "path": "SKILL.md",
+      "bytes": 15433,
+      "sha256": "2ba42531d228b931edbf254bcdb3fe2dae83c1d7db022083feb86e64af1b4934"
+    }
+  ]
+}

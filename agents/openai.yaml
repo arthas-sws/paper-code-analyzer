@@ -1,0 +1,13 @@
+interface:
+  display_name: Paper Code Analyzer
+  short_description: 先列论文模块总览，再讲自身基线、机制源码与收益；按明确请求追加跨领域迁移
+  default_prompt: 使用 $paper-code-analyzer 拆解这篇论文：先给功能模块总览表，再按对应编号解释相对自身前作或基线的变化、机制公式、代码和收益证据，最后总结整机结果与限制。
+  icon_small: assets/icon.svg
+  icon_large: assets/icon.svg
+policy:
+  products:
+  - chatgpt
+  - codex
+  - api
+  - atlas
+  allow_implicit_invocation: true
